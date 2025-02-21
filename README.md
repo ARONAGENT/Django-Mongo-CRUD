@@ -97,8 +97,9 @@ This project supports the following operations on the `worker` collection:
 4. **Delete Worker by ID (DELETE)** - Removes a worker record from the database.
 
 ---
-## Execution Video
-For a step-by-step walkthrough, watch the [execution video](#) (Replace `#` with the actual video link).
+## Execution ->
+
+https://github.com/user-attachments/assets/b26118af-51f2-421b-9620-dab24978bacd
 
 ---
 ## How to Run the Project
