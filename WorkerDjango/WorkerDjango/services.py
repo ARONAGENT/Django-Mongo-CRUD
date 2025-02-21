@@ -3,7 +3,7 @@ from pymongo import MongoClient
 class WorkersOperation:
     def insertWorker(self,dic):
         try:
-            client=MongoClient("mongodb+srv://rohan2024:Aronagent2024@aroncluster.69g2e.mongodb.net/?retryWrites=true&w=majority&appName=AronCluster")
+            client=MongoClient("mongodb+srv://rohan2024:....")
             db=client['arondb']
             coll=db['workers']
             coll.insert_one(dic)
@@ -15,7 +15,7 @@ class WorkersOperation:
     
     def listworkers(self):
         try:
-            client=MongoClient("mongodb+srv://rohan2024:Aronagent2024@aroncluster.69g2e.mongodb.net/?retryWrites=true&w=majority&appName=AronCluster")
+            client=MongoClient("mongodb+srv://rohan2024:...")
             db=client['arondb']
             coll=db['workers']
             workers = [] 
@@ -29,7 +29,7 @@ class WorkersOperation:
     
     def incrementsal(self,dic):
         try:
-            client=MongoClient("mongodb+srv://rohan2024:Aronagent2024@aroncluster.69g2e.mongodb.net/?retryWrites=true&w=majority&appName=AronCluster")
+            client=MongoClient("mongodb+srv://rohan2024:....")
             db=client['arondb']
             coll=db['workers']
             wid={'workerId':dic['workerId']}
@@ -48,7 +48,7 @@ class WorkersOperation:
 
     def deleteWorker(self,dic):
         try:
-            client=MongoClient("mongodb+srv://rohan2024:Aronagent2024@aroncluster.69g2e.mongodb.net/?retryWrites=true&w=majority&appName=AronCluster")
+            client=MongoClient("mongodb+srv://rohan2024:......")
             db=client['arondb']
             coll=db['workers']
             wid={'workerId':dic['workerId']}
