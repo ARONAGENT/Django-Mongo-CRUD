@@ -174,39 +174,10 @@ Visit `http://127.0.0.1:8000/` to access the application.
 
 ## 📁 Project Structure
 
-```
-Django-Mongo-CRUD/
-├── workersWeb/
-│   ├── workersWeb/
-│   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   ├── wsgi.py
-│   │   └── asgi.py
-│   ├── workers/                # Django app
-│   │   ├── __init__.py
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── views.py
-│   │   ├── urls.py
-│   │   ├── mongodb_config.py
-│   │   └── tests.py
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── workers_list.html
-│   │   ├── add_worker.html
-│   │   └── increment_salary.html
-│   ├── static/
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   ├── js/
-│   │   │   └── main.js
-│   │   └── images/
-│   └── manage.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+
+<img width="377" height="701" alt="image" src="https://github.com/user-attachments/assets/0a413ffb-b287-42d7-b5c4-18baf868f33b" />
+
+
 
 ## 🔗 API Endpoints
 
